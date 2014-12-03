@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin:0;
+	padding:0;
+	background-color:#FFF;
+}
+
+input[type="text"], input[type="email"], textarea, select {
+    color: #555;
+    height: 30px;
+    line-height:15px;
+    padding: 0px 0px 0px 10px;
+    margin-top: 2px;
+    border: 1px solid #E5E5E5;
+    background: #FBFBFB;
+    outline: 0;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(238, 238, 238, 0.2);
+    box-shadow: inset 1px 1px 2px rgba(238, 238, 238, 0.2);
+    font: normal 14px/14px Ubuntu,Arial,"libra sans",sans-serif;
+}
+
+textarea{
+    height:100px;
+    padding-top: 10px;
+}
+
+select {
+	/*
+    background: url('arrow_down_float.png') no-repeat right, -moz-linear-gradient(top, #FBFBFB 0%, #E9E9E9 100%);
+    background: url('arrow_down_float.png') no-repeat right, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FBFBFB), color-stop(100%,#E9E9E9));
+	*/
+   appearance:none;
+    -webkit-appearance:none;
+   -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    height:30px;
+}
+
+#wr {
+	padding:0;
+	margin:0;
+}
+
+#header {
+	height:90px;
+	margin:0;
+	background:#D1046B url(../images/logo.png) left no-repeat;
+}
+#menu {
+	margin:0;
+	padding:0;
+}
+
+#listLine {
+	height:20px;
+	margin:0;
+	padding:4px;
+	background-color:#850AFF;
+	font-family: Ubuntu,Arial,"libra sans",sans-serif;
+	font-size:12px;
+	color:#FFF;
+}
+
+#content {
+	margin:0;
+	padding:0;
+	font:12px/25px Ubuntu,Arial,"libra sans",sans-serif;
+}
+	#content #line1 {
+		margin:0;
+		padding:0;
+		height:10px;
+		background:#F06;
+	}
+	#content #left {
+		margin:0;
+		padding:0 5px;
+		width:300px;
+		height:400px;
+		background-color:#FFBFFF;
+		border-left:10px solid #D1046B;
+		float:left;
+	}
+	#content #right {
+		margin:0;
+		padding:5px;
+		float:left;
+		width:68%;
+	}
+		#right h1,h2,h3,p {
+			margin:0;
+			padding:0;
+		}
+	
+
+#footer {
+	height:80px;
+	margin:0;
+	background:#333333;
+}
